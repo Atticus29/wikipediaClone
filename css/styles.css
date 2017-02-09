@@ -1,0 +1,28 @@
+div {
+  border: 1px solid red;
+}
+
+.blueText{
+  color: blue;
+}
+
+.listWelcomeColumn{
+  color: blue;
+  margin: 25px auto auto auto;
+  text-align: left;
+  padding-left: 0;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+#WelcomeText{
+  width: 50%;
+  margin: 0;
+}
+
+.contentPanelHeading{
+  color: black;
+  font-weight: bold;
+}
