@@ -1,6 +1,6 @@
-div {
+/*div {
   border: 1px solid red;
-}
+}*/
 
 .blueText{
   color: blue;
@@ -8,9 +8,12 @@ div {
 
 .listWelcomeColumn{
   color: blue;
-  margin: 25px auto auto auto;
+  /*margin: 25px auto auto auto;*/
+  margin-top: 25px;
+  margin-right: 8%;
   text-align: left;
-  padding-left: 0;
+  /*padding-right: 8%;*/
+  float: left;
 }
 
 .boldText{
@@ -25,4 +28,13 @@ div {
 .contentPanelHeading{
   color: black;
   font-weight: bold;
+}
+
+#ContentRow1 img:not(#img1){
+  float: right;
+}
+
+#img1 {
+  float: left;
+  margin-right: 1%;
 }

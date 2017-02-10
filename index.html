@@ -8,79 +8,139 @@
 </head>
 <body>
   <div class="container">
-    <div class="row" id="WelcomeRow">
-      <!--<div class="well">-->
-        <div class="col-md-7">
-          <div id="WelcomeText">
-            <h2>Welcome to <span class="blueText">Wikipedia</span></h2>
-            <p>
-              the <span class="blueText">free encylopedia</span> that <span class="blueText">anyone can edit.</span>
-              <br>
-              &nbsp <span class="blueText">5,331,859</span> articles in <span class="blueText">English</span>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <ul class="listWelcomeColumn">
-            <li>Arts</li>
-            <li>Biography</li>
-            <li>Geography</li>
-          </ul>
-        </div>
-        <div class="col-md-1">
-          <ul class="listWelcomeColumn">
-            <li>History</li>
-            <li>Mathematics</li>
-            <li>Science</li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <ul class="listWelcomeColumn">
-            <li>Society</li>
-            <li>Technology</li>
-            <li><span class="boldText">All portals</span></li>
-          </ul>
-        </div>
-      <!--</div>-->
-    </div>
-    <div class="row", id="ContentRow1">
-      <div class="col-md-7" id="ContentCol1">
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3 class="panel-title contentPanelHeading">
-              From today's featured article
-            </h3>
-          </div>
-          <img scr="img/img1.jpg">
-        </div>
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3 class="panel-title contentPanelHeading">
-              Did you know...
-            </h3>
-          </div>
-          <img scr="img/img3.jpg">
-        </div>
-      </div>
-      <div class="col-md-5" id="ContentCol2">
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title contentPanelHeading">
-              In the news
-            </h3>
-          </div>
-          <img scr="img/img2.jpg">
-        </div>
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title contentPanelHeading">
-              On this day...
-            </h3>
-          </div>
-          <img scr="img/img4.jpg">
-        </div>
-      </div>
+    <!-- nav here -->
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Main Page</a></li>
+      <li role="presentation"><a href="#">Talk</a></li>
+      <li role="presentation"><a href="#">Read</a></li>
+      <li role="presentation"><a href="#">View Source</a></li>
+      <li role="presentation"><a href="#">View History</a></li>
+    </ul>
+    <!-- <nav class="navbar navbar-default">
+    <div class="container-fluid"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div> -->
+<!-- Collect the nav links, forms, and other content for toggling -->
+<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#">Main Page <span class="sr-only">(current)</span></a></li>
+<li><a href="#">Talk</a></li>
+</ul>
+<form class="navbar-form navbar-left">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Link</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#">Action</a></li>
+<li><a href="#">Another action</a></li>
+<li><a href="#">Something else here</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="#">Separated link</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+<!-- </div>
+</nav> -->
+<div class="row" id="WelcomeRow">
+  <!--<div class="well">-->
+  <div class="col-md-7">
+    <div id="WelcomeText">
+      <h2>Welcome to <span class="blueText">Wikipedia</span></h2>
+      <p>
+        the <span class="blueText">free encylopedia</span> that <span class="blueText">anyone can edit.</span>
+        <br>
+        &nbsp <span class="blueText">5,331,859</span> articles in <span class="blueText">English</span>
+      </p>
     </div>
   </div>
+  <div class="col-md-5">
+    <ul class="listWelcomeColumn">
+      <li>Arts</li>
+      <li>Biography</li>
+      <li>Geography</li>
+    </ul>
+    <ul class="listWelcomeColumn">
+      <li>History</li>
+      <li>Mathematics</li>
+      <li>Science</li>
+    </ul>
+    <ul class="listWelcomeColumn">
+      <li>Society</li>
+      <li>Technology</li>
+      <li><span class="boldText">All portals</span></li>
+    </ul>
+  </div>
+  <!--</div>-->
+</div>
+<div class="row", id="ContentRow1">
+  <div class="col-md-7" id="ContentCol1">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title contentPanelHeading">
+          From today's featured article
+        </h3>
+      </div>
+      <img src="img/img1.jpg" id="img1">
+      <p>The USS Constellation captured the French L'Insurgente in a single-ship action between the frigates on 9 February 1799. The previous year, French privateering attacks against American vessels had led to the undeclared Quasi-War. Four US naval squadrons were sent to the Caribbean with orders to seize armed French vessels and prevent attacks on American ships. The squadron under Commodore Thomas Truxtun was on assignment in the waters between Puerto Rico and Saint Kitts when his flagship Constellation, cruising independently, met and engaged L'Insurgente, commanded by Michel-Pierre Barreaut. After chasing the French ship through a storm, Truxtun forced an engagement. The French frigate surrendered after 74 minutes with heavy casualties; the Americans sustained only a few casualties. L'Insurgente was taken to Saint Kitts and commissioned into the United States Navy as USS Insurgent. The action was the first victory over an enemy warship for the newly formed navy, and Truxtun was praised by the American government and public. (Full article...)
+      </p>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title contentPanelHeading">
+          Did you know...
+        </h3>
+      </div>
+      <img src="img/img3.jpg">
+      <ul>
+        <li>... that Pamela Cunningham Copeland (pictured) was honored by the Garden Club of America for her vision in preserving rare and endangered plants at Mount Cuba?</li>
+        <li>... that drawing the graphic novel diary Dendō helped Brittany Long Olsen cope with "raw and emotional" moments on her LDS mission in Japan?</li>
+        <li>... that "Wär Gott nicht mit uns diese Zeit", a hymn by the Protestant reformer Martin Luther based on Psalm 124, appears in the current Protestant hymnal only partly, within stanzas from a colleague's hymn?</li>
+        <li>... that an interactive exhibit about the life and work of David Hawkins was called "Cultivate the Scientist in Every Child"?</li>
+        <li>... that at the establishment of Bahía Portete National Natural Park, Colombian president Juan Manuel Santos said, "Biodiversity is to Colombia what oil is for the Arabs"?</li>
+        <li>... that Sophie Molineux won the inaugural Betty Wilson Young Cricketer of the Year Award at the 2017 Allan Border Medal Ceremony?</li>
+        <li>... that historical comet observations in China as far back as 12 BC have been used to study changes in the brightness of Halley's Comet?</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-5" id="ContentCol2">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title contentPanelHeading">
+          In the news
+        </h3>
+      </div>
+      <img src="img/img2.jpg">
+      <p>In association football, the Africa Cup of Nations concludes with    Cameroon defeating Egypt in the final (man of the match Benjamin Moukandjo pictured). Protests in Romania grow over the Romanian government's proposals to decriminalize certain corruption cases. In American football, the New England Patriots defeat the Atlanta Falcons to win Super Bowl LI, the first to go into overtime. The United Nations releases a report stating that the Myanmar Army has committed serious human rights violations against the Rohingya people, including mass killings, systematic sexual violence, and the killing of children.
+      </p>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title contentPanelHeading">
+          On this day...
+        </h3>
+      </div>
+      <img src="img/img4.jpg">
+      <p>
+        1825 – After no presidential candidate received a majority of electoral votes, the United States House of Representatives elected John Quincy Adams (pictured) president. 1920 – The Svalbard Treaty was signed, recognising Norwegian sovereignty over the Arctic archipelago of Svalbard, but all signatories were also given equal rights to engage in commercial activities on the islands. 1943 – World War II: Allied forces declared Guadalcanal secure, ending the Guadalcanal Campaign as a significant strategic victory for Allied forces fighting Japan in the Pacific War. 1969 – The Boeing 747 made its first flight, with test pilots Jack Waddell and Brien Wygle at the controls and Jess Wallick at the flight engineer's station. 1996 – Breaking a seventeen-month ceasefire, the Provisional Irish Republican Army detonated a powerful truck bomb in Canary Wharf, London, killing 2 people and injuring more than 100 others. More anniversaries: February 8 February 9 February 10
+      </p>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
